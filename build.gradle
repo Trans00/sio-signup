@@ -19,6 +19,11 @@ repositories {
     mavenCentral()
 }
 
+war{
+    archiveName = 'ROOT.war'
+    destinationDir = file('webapps')
+}
+
 httpPort = 8080
 stopPort = 9080
 stopKey = "stopKey"
