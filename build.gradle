@@ -22,7 +22,7 @@ repositories {
 war{
     archiveName = 'ROOT.war'
     destinationDir = file('webapps')
-}
+}6
 
 httpPort = 8080
 stopPort = 9080
