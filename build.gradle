@@ -22,11 +22,12 @@ repositories {
 war{
     archiveName = 'ROOT.war'
     destinationDir = file('webapps')
-}6
+}
 
 httpPort = 8080
 stopPort = 9080
 stopKey = "stopKey"
+jettyRunWar.contextPath = ''
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
